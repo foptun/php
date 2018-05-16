@@ -21,7 +21,7 @@ class OrderServiceUnitTest extends PHPUnit_Framework_TestCase {
 
 		$this->orderService = new OrderService();
 		$this->orderService->setOrderRepository($this->mockOrderRepository);
-		$this->mockOrderRepository->expects($this->once())->method('persist')->with($order);
+		$this->mockOrderRepository->expects($this->once())->method('persistx')->with($order);
 		$this->orderService->setEmailSender($this->mockEmailSender);
 		
 		$this->orderService->save($input);
