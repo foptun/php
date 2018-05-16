@@ -21,9 +21,17 @@ class ComposerStaticInitd238fb6de30c4c3bcab2a9ac292ef660
     );
 
     public static $classMap = array (
+        'Email' => __DIR__ . '/../..' . '/web/Email.php',
+        'EmailSender' => __DIR__ . '/../..' . '/web/EmailSender.php',
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/File/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/File/Iterator/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/File/Iterator/Factory.php',
+        'FizzBuzz' => __DIR__ . '/../..' . '/web/FizzBuzz.php',
+        'Hello' => __DIR__ . '/../..' . '/web/index.php',
+        'LoginService' => __DIR__ . '/../..' . '/web/LoginService.php',
+        'Order' => __DIR__ . '/../..' . '/web/Order.php',
+        'OrderRepository' => __DIR__ . '/../..' . '/web/OrderRepository.php',
+        'OrderService' => __DIR__ . '/../..' . '/web/OrderService.php',
         'PHPUnit_Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit_Extensions_GroupTestSuite' => __DIR__ . '/..' . '/phpunit/phpunit/src/Extensions/GroupTestSuite.php',
         'PHPUnit_Extensions_PhptTestCase' => __DIR__ . '/..' . '/phpunit/phpunit/src/Extensions/PhptTestCase.php',

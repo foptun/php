@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="UnitTest" tests="8" assertions="9" failures="0" errors="0" time="0.009164">
+    <testsuite name="FizzBuzzTest" file="/Users/foptun/Docker/sharevolume/public_html/php/test/FizzBuzzTest.php" tests="5" assertions="5" failures="0" errors="0" time="0.003082">
+      <testcase name="testOneShouldBeSayOne" class="FizzBuzzTest" file="/Users/foptun/Docker/sharevolume/public_html/php/test/FizzBuzzTest.php" line="9" assertions="1" time="0.002339"/>
+      <testcase name="testTwoShouldBeSayTwo" class="FizzBuzzTest" file="/Users/foptun/Docker/sharevolume/public_html/php/test/FizzBuzzTest.php" line="14" assertions="1" time="0.000199"/>
+      <testcase name="testThreeShouldBeSayFizz" class="FizzBuzzTest" file="/Users/foptun/Docker/sharevolume/public_html/php/test/FizzBuzzTest.php" line="19" assertions="1" time="0.000194"/>
+      <testcase name="testFiveShouldBeSayBuzz" class="FizzBuzzTest" file="/Users/foptun/Docker/sharevolume/public_html/php/test/FizzBuzzTest.php" line="24" assertions="1" time="0.000155"/>
+      <testcase name="testSixShouldBeSayFizz" class="FizzBuzzTest" file="/Users/foptun/Docker/sharevolume/public_html/php/test/FizzBuzzTest.php" line="29" assertions="1" time="0.000195"/>
+    </testsuite>
+    <testsuite name="LoginServiceTest" file="/Users/foptun/Docker/sharevolume/public_html/php/test/LoginServiceTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.000371">
+      <testcase name="testLoginPass" class="LoginServiceTest" file="/Users/foptun/Docker/sharevolume/public_html/php/test/LoginServiceTest.php" line="9" assertions="1" time="0.000371"/>
+    </testsuite>
+    <testsuite name="OrderServiceUnitTest" file="/Users/foptun/Docker/sharevolume/public_html/php/test/OrderServiceUnitTest.php" tests="2" assertions="3" failures="0" errors="0" time="0.005711">
+      <testcase name="testOrderingProductSuccessWithoutSendEmailToConfirm" class="OrderServiceUnitTest" file="/Users/foptun/Docker/sharevolume/public_html/php/test/OrderServiceUnitTest.php" line="13" assertions="1" time="0.005345"/>
+      <testcase name="testOrderingProductSuccessWithSendEmailToConfirm" class="OrderServiceUnitTest" file="/Users/foptun/Docker/sharevolume/public_html/php/test/OrderServiceUnitTest.php" line="30" assertions="2" time="0.000366"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
